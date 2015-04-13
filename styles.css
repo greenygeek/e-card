@@ -1,3 +1,32 @@
 /*-- Ecard --*/
 
+body {
+	background: url('img/brickwall.png');
+}
+
+.frame {
+	margin-top: 10em;
+	border: solid 3px black;
+	border-radius: 3px;
+	height: 500px;
+	background-color: #469876;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.text-row {
+
+}
+
+.text {
+	font-family: 'Lobster Two', cursive;
+	font-size: 40px;
+
+}
+
+.image {
+	margin-top: 2em;
+	margin-bottom: 1em;
+
+}
+
 
