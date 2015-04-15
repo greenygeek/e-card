@@ -15,18 +15,37 @@
 
 </head>
 <body>
-	
+
+
 	<div class="container-fluid">
 		<div class="col-md-8 col-md-offset-2  col-xs-10 col-xs-offset-1 frame">
 			<div class="row image-row">
 				<div class="col-xs-10 col-xs-offset-1">
-					<img src="http://placehold.it/600x300" class="center-block image">
+					<img src="img/heal-motorcycle.png" class="center-block image">
 				</div>
 			</div>
 
+		<div class="row">
+
+				<div class="col-md-12">
+					<button id="go" class="btn btn-lg center-block">Go</button>
+
+				</div>
+			
+		</div>
+
+		<div class="row">
+			<div class="col-md-6" id="motorbike">
+				
+				<img src="img/motorbike.png" alt="">
+
+				</div>
+		</div>
+
+
 			<div class="row text-row">
-				<div class="col-xs-10 col-xs-offset-1 text-center">
-				<p class="text">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
+				<div class="col-xs-8 col-xs-offset-2 text-center">
+				<p class="text">Looking forward to having you up and running again soon!</p>
 				</div>
 			</div>
 		</div>
@@ -34,6 +53,30 @@
 			
 
 	</div>
+
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<script>
+	// function(){
+	// 		;
+	// 		};
+
+
+	/* Start animation */
+	$( "#go" ).click(function() {
+		$( "#motorbike:hidden:first" ).fadeIn( "slow" ) +
+		$( "#motorbike" ).animate({ "left": "+=1500px" }, "slow" ) + $( ".text:hidden:first" ).fadeIn( 2500 );
+			
+		
+		});
+
+
+
+</script>
+
+
+
 
 </body>
 </html>

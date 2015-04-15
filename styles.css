@@ -5,11 +5,11 @@ body {
 }
 
 .frame {
-	margin-top: 10em;
+	margin-top: 6em;
 	border: solid 3px black;
 	border-radius: 3px;
-	height: 500px;
-	background-color: #469876;
+	height: 600px;
+	background-color: #0769AD;
 	box-shadow: 10px 10px 5px #888888;
 }
 
@@ -20,13 +20,19 @@ body {
 .text {
 	font-family: 'Lobster Two', cursive;
 	font-size: 40px;
+	 display: none;
 
 }
 
 .image {
 	margin-top: 2em;
 	margin-bottom: 1em;
+	max-height: 300px;
 
+}
+
+#motorbike {
+	 display: none;
 }
 
 
